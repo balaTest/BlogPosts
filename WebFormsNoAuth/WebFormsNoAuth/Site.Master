@@ -13,8 +13,13 @@
 </head>
 <body>
     <form runat="server">
-        <script src="Scripts/jquery-1.9.1.js"></script>
-        <script src="Scripts/bootstrap.js"></script>
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+            </Scripts>
+        </asp:ScriptManager>
+
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
