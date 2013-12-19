@@ -121,6 +121,7 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <None Include="Scripts\_references.js" />
     <Content Include="Site.Mobile.Master" />
     <Content Include="Bundle.config" />
     <Content Include="Scripts\jquery-2.0.3.min.map" />
