@@ -27,6 +27,9 @@ namespace WebFormsNoAuth
                     "~/Scripts/WebForms/MsAjax/MicrosoftAjaxTimer.js",
                     "~/Scripts/WebForms/MsAjax/MicrosoftAjaxWebForms.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
+                            "~/Scripts/modernizr-*"));
+
             BundleTable.EnableOptimizations = true;
         }
     }
